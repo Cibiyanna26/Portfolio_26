@@ -5,7 +5,6 @@ import Banner from './components/Banner';
 import Contact from './components/Contact';
 import Nav from './components/Nav';
 import About from './components/About';
-import Service from './components/Services';
 import Work from './components/Work';
 
 
