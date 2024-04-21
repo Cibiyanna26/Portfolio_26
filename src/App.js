@@ -1,11 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Banner from './components/Banner';
 import Contact from './components/Contact';
 import Nav from './components/Nav';
 import About from './components/About';
-import Service from './components/Services';
 import Work from './components/Work';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -19,7 +17,6 @@ const Home = () =>{
         <About/>
         <Work/>
         <Contact/>
-        
       </div>
     </>
   )
@@ -32,7 +29,6 @@ function App() {
       <Router basename="/">
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="*" element={<NotFound />} /> */}
         </Routes>
       </Router>
     </>
