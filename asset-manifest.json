@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio_26/static/css/main.30a9c2b5.css",
-    "main.js": "/Portfolio_26/static/js/main.597b65f6.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Portfolio_26/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/Portfolio_26/static/css/main.fab39436.css",
+    "main.js": "/Portfolio_26/static/js/main.6812bcaa.js",
+    "static/js/787.7da95b79.chunk.js": "/Portfolio_26/static/js/787.7da95b79.chunk.js",
     "static/media/lic_project.png": "/Portfolio_26/static/media/lic_project.d2a80e6b28f064c04d3f.png",
+    "static/media/faith-store.png": "/Portfolio_26/static/media/faith-store.15e10ddda00b3247120b.png",
     "static/media/portfolio-img2.png": "/Portfolio_26/static/media/portfolio-img2.d80e3fc7e2231cffbbd7.png",
     "static/media/nikedesign.png": "/Portfolio_26/static/media/nikedesign.731302848b928e6a94d9.png",
     "static/media/site-bg.jpg": "/Portfolio_26/static/media/site-bg.54724d703024833ef9c6.jpg",
     "static/media/portfolioimg.png": "/Portfolio_26/static/media/portfolioimg.c83564b2d8be22ec224b.png",
     "static/media/socailmedia.svg": "/Portfolio_26/static/media/socailmedia.75f73c1e83cd5e1b8bcd6aa143ee6716.svg",
     "static/media/new3.svg": "/Portfolio_26/static/media/new3.75c26fd1197f9dd15a9e30cb139a3cbf.svg",
+    "static/media/effitrac-image.png": "/Portfolio_26/static/media/effitrac-image.96676043cf8039897b9e.png",
     "static/media/new2.svg": "/Portfolio_26/static/media/new2.fb2b007e668fbdc05c6aca9a60ddfa6d.svg",
     "static/media/facedet.jpeg": "/Portfolio_26/static/media/facedet.5c926eeee76470964dba.jpeg",
     "static/media/classroom.png": "/Portfolio_26/static/media/classroom.e1e5b3f5fde3bd4451b8.png",
@@ -18,19 +20,17 @@
     "static/media/skysenseimage.jpg": "/Portfolio_26/static/media/skysenseimage.9bfd51990f95276070ec.jpg",
     "static/media/new1.svg": "/Portfolio_26/static/media/new1.b6f22b4b9e205cfb483b04ca9127d717.svg",
     "static/media/twitter.png": "/Portfolio_26/static/media/twitter.7e40f617aaa8eca864bb.png",
-    "static/media/social.png": "/Portfolio_26/static/media/social.86ab8508a07b3de9f612.png",
     "static/media/github.png": "/Portfolio_26/static/media/github.159594a2d44d9175df20.png",
-    "static/media/laptop.png": "/Portfolio_26/static/media/laptop.003b36d56c5ecd15763a.png",
     "static/media/linkedin.png": "/Portfolio_26/static/media/linkedin.17e919bb623c20be8b80.png",
     "static/media/figma.png": "/Portfolio_26/static/media/figma.72fbc535ebe253a5dbc4.png",
     "static/media/logo.svg": "/Portfolio_26/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio_26/index.html",
-    "main.30a9c2b5.css.map": "/Portfolio_26/static/css/main.30a9c2b5.css.map",
-    "main.597b65f6.js.map": "/Portfolio_26/static/js/main.597b65f6.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Portfolio_26/static/js/787.1ed0c42c.chunk.js.map"
+    "main.fab39436.css.map": "/Portfolio_26/static/css/main.fab39436.css.map",
+    "main.6812bcaa.js.map": "/Portfolio_26/static/js/main.6812bcaa.js.map",
+    "787.7da95b79.chunk.js.map": "/Portfolio_26/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30a9c2b5.css",
-    "static/js/main.597b65f6.js"
+    "static/css/main.fab39436.css",
+    "static/js/main.6812bcaa.js"
   ]
 }
