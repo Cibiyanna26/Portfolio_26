@@ -46,7 +46,7 @@ const About = ()=>{
                                  Projects on Web Development
                             </div>
                             <div className="font-tertiary text-[40px] text-gradient mb-2">
-                               {inView?<CountUp start={0} end={3} duration={3} /> 
+                               {inView?<CountUp start={0} end={5} duration={2} /> 
                                :null} 
                             </div>
                         </div>
@@ -66,7 +66,7 @@ const About = ()=>{
                                  Leetcode Count
                             </div>
                             <div className="font-tertiary text-[40px] text-gradient mb-2">
-                               {inView?<CountUp start={0} end={231} duration={3} /> 
+                               {inView?<CountUp start={0} end={356} duration={3} /> 
                                :null} 
                             </div>
                         </div>
@@ -76,7 +76,7 @@ const About = ()=>{
                                  Leetcode Max Contest Rating
                             </div>
                             <div className="font-tertiary text-[40px] text-gradient mb-2">
-                               {inView?<CountUp start={0} end={1551} duration={1} /> 
+                               {inView?<CountUp start={0} end={1440} duration={1} /> 
                                :null} 
                             </div>
                         </div>

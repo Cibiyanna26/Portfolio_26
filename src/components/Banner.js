@@ -38,13 +38,11 @@ const Banner = ()=>{
                             <TypeAnimation sequence={[
                                 'Developer',
                                 2000,
-                                'Designer',
-                                2000,
-                                'Problem solver',
+                                'ML Enthusiast',
                                 2000,
                             ]}
                             speed={50}
-                            className="text-accent "
+                            className="text-accent"
                             wrapper="span"
                             repeat={Infinity}
                             />
@@ -55,7 +53,7 @@ const Banner = ()=>{
                             whileInView={'show'}
                             viewport={{once:false,amount:0.7}}
                             className="mb-8 max-w-lg mx-auto lg:mx-1">
-                                Hello guys i am cibiyanna i'm a front-end developer and django backend developer
+                            I'm a Full-Stack Developer and Founder of <a href="" target="_blank">Devoice</a> .
                         </motion.p>
                         <motion.div 
                             variants={fadeIn('up',0.8)} 
