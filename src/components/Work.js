@@ -12,10 +12,14 @@ import nike from '../assets/nikedesign.png';
 import figma from '../assets/figma.png';
 import effitrack from '../assets/effitrac-image.png'
 import aminity from '../assets/faith-store.png';
+import leetcode_roaster from '../assets/leetcode-roaster.png';
+import roaster_logo from '../assets/leetcode_roaster_logo.png';
+import ror_landing from '../assets/ror-landing.png'
+
 
 const Work = () => {
 
-    const tech = ['webdev', 'django', 'ml'];
+    const tech = ['Webdev', 'Django', 'ML','MERN'];
 
     return <section className="py-8 lg:py-14 " id="work">
         <div className="container mx-auto">
@@ -39,7 +43,7 @@ const Work = () => {
                 </div>
             </div>
             <div className="p-3 flex flex-wrap lg:flex-row justify-evenly lg:gap-y-12 gap-y-10 gap-x-18">
-                <div className="max-h-[350px] max-w-[340px] overflow-hidden  p-3 bg-cardbg rounded-xl text-black
+                <div className="min-h-[350px] max-w-[340px] overflow-hidden  p-3 bg-cardbg rounded-xl text-black
                                     font-secondary  transform-gpu transistion duration-300
                                     shadow-none flex flex-col gap-y-3">
                     <div className=" rounded-xl overflow-hidden cursor-pointer border-zinc-950
@@ -70,7 +74,74 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div className="max-h-[350px] max-w-[340px] overflow-hidden  p-3 bg-cardbg rounded-xl text-black
+                <div className="min-h-[350px] max-w-[340px] overflow-hidden  p-3 bg-cardbg rounded-xl text-black
+                                    font-secondary  transform-gpu transistion duration-300
+                                    shadow-none flex flex-col gap-y-3">
+                    <div className=" rounded-xl overflow-hidden cursor-pointer border-zinc-950
+                                        shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/30">
+                        <img src={roaster_logo} className="w-[330px] h-[190px]"></img>
+                    </div>
+                    <div className="p-2">
+                        <h1 className="font-bold text-xl ">Leetcode Roaster</h1>
+
+                        <p className="font-semibold text-sm">Leetcode Roaster is a fun web app that gives a humorous roast based on your Leetcode activity. </p>
+
+                        <div className="flex bottom-2 fixed w-[310px]">
+                            <div className="flex flex-1 gap-x-5 items-center max-w-full">
+                                <div className="max-w-[30px]  overflow-hidden rounded-full
+                                                    shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/30             ">
+                                    <a href="https://leetcode-roaster.netlify.app/"><img src={Website} className=""></img></a>
+                                </div>
+
+
+                            </div>
+                            <div className="">
+                                <button className="bg-white py-1 px-2 rounded-xl  text-black
+                                                        shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/30             
+                                                        border border-black font-medium">
+                                    MERN
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="min-h-[350px] max-w-[340px] overflow-hidden  p-3 bg-cardbg rounded-xl text-black
+                                    font-secondary  transform-gpu transistion duration-300
+                                    shadow-none flex flex-col gap-y-3">
+                    <div className=" rounded-xl overflow-hidden cursor-pointer border-zinc-950
+                                        shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/30">
+                        <img src={ror_landing} className="w-[330px] h-[190px]"></img>
+                    </div>
+                    <div className="p-2">
+                        <h1 className="font-bold text-xl ">Reach Out Rural</h1>
+
+                        <p className="font-semibold text-sm">The Telemedicine App Created for Rural People, let every one in the rural to have access to telemedicine.</p>
+
+                        <div className="flex bottom-2 fixed w-[310px]">
+                            <div className="flex flex-1 gap-x-5 items-center max-w-full">
+                                {/* <div className="max-w-[30px]  overflow-hidden rounded-full
+                                                    shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/30             ">
+                                    <a href="https://leetcode-roaster.netlify.app/"><img src={Website} className=""></img></a>
+                                </div> */}
+
+
+                            </div>
+                            <div className="flex space-x-2">
+                                <button className="bg-blue-500 py-1 px-2 rounded-xl  text-white
+                                                        shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/30             
+                                                         font-medium">
+                                    Flutter
+                                </button>
+                                <button className="bg-django  py-1 px-2 rounded-xl  text-white
+                                                        shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/30             
+                                                        ">
+                                    Django
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="min-h-[350px] max-w-[340px] overflow-hidden  p-3 bg-cardbg rounded-xl text-black
                                     font-secondary  transform-gpu transistion duration-300
                                     shadow-none flex flex-col gap-y-3">
                     <div className=" rounded-xl overflow-hidden cursor-pointer border-zinc-950
@@ -102,7 +173,7 @@ const Work = () => {
                     </div>
                 </div>
 
-                <div className="h-[350px] w-[340px] overflow-hidden  p-3 bg-cardbg rounded-xl text-black
+                <div className="min-h-[350px] w-[340px] overflow-hidden  p-3 bg-cardbg rounded-xl text-black
                                     font-secondary  transform-gpu transistion duration-300
                                     shadow-none flex flex-col gap-y-3">
                     <div className=" rounded-xl overflow-hidden cursor-pointer border-zinc-950
@@ -138,7 +209,7 @@ const Work = () => {
                     </div>
                 </div>
 
-                <div className="h-[350px] w-[340px] overflow-hidden  p-3 bg-cardbg rounded-xl text-black
+                <div className="min-h-[350px] w-[340px] overflow-hidden  p-3 bg-cardbg rounded-xl text-black
                                     font-secondary  transform-gpu transistion duration-300
                                     shadow-none flex flex-col gap-y-3">
                     <div className="rounded-xl overflow-hidden cursor-pointer border-zinc-950
@@ -171,7 +242,7 @@ const Work = () => {
                     </div>
                 </div>
                 
-                <div className="h-[350px] w-[340px] overflow-hidden  p-3 bg-cardbg rounded-xl text-black
+                <div className="min-h-[350px] w-[340px] overflow-hidden  p-3 bg-cardbg rounded-xl text-black
                                     font-secondary  transform-gpu transistion duration-300
                                     shadow-none flex flex-col gap-y-3">
                     <div className=" rounded-xl overflow-hidden cursor-pointer border-zinc-950
@@ -203,7 +274,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div className="h-[350px] w-[340px] overflow-hidden  p-3 bg-cardbg rounded-xl text-black
+                <div className="min-h-[350px] w-[340px] overflow-hidden  p-3 bg-cardbg rounded-xl text-black
                                     font-secondary  transform-gpu transistion duration-300 
                                     shadow-none flex flex-col gap-y-3">
                     <div className="  rounded-xl overflow-hidden cursor-pointer border-zinc-950

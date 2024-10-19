@@ -53,7 +53,7 @@ const Banner = ()=>{
                             whileInView={'show'}
                             viewport={{once:false,amount:0.7}}
                             className="mb-8 max-w-lg mx-auto lg:mx-1">
-                            I'm a Full-Stack Developer and Founder of <a href="" target="_blank">Devoice</a> .
+                            I'm a Full-Stack Developer and Open-Source Enthusiast.
                         </motion.p>
                         <motion.div 
                             variants={fadeIn('up',0.8)} 
