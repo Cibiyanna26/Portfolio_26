@@ -65,10 +65,10 @@ const Work = () => {
 
                             </div>
                             <div className="">
-                                <button className="bg-cardcl py-1 px-2 rounded-xl  text-white
+                                  <button className="bg-white py-1 px-2 rounded-xl  text-black
                                                         shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/30             
-                                                        ">
-                                    WEBDEV
+                                                        border border-black font-medium">
+                                    MERN
                                 </button>
                             </div>
                         </div>
@@ -137,6 +137,11 @@ const Work = () => {
                                                         ">
                                     Django
                                 </button>
+                                <button className="bg-gray-800  py-1 px-2 rounded-xl  text-white
+                                                        shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/30             
+                                                        ">
+                                    Flask
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -163,10 +168,10 @@ const Work = () => {
 
                             </div>
                             <div className="">
-                                <button className="bg-cardcl py-1 px-2 rounded-xl  text-white
+                                  <button className="bg-white py-1 px-2 rounded-xl  text-black
                                                         shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/30             
-                                                        ">
-                                    WEBDEV
+                                                        border border-black font-medium">
+                                    MERN
                                 </button>
                             </div>
                         </div>
